@@ -10,6 +10,50 @@ namespace _081517_VariablesOperatorsExpressions
     {
         static void Main(string[] args)
         {
+            //string name = "Brad";
+            //Console.WriteLine(name);
+
+            //name = "Dave";
+            //Console.WriteLine(name);
+            ////Case matters when naming variables
+            //string Name = "Brad";
+
+            //string birthMonth = "February";
+
+            //Console.WriteLine(birthMonth);
+            //integers
+            int birthMonthNumber = 12;
+            int age = 65;
+            int population = 100000;
+            //Floating type variables
+
+            float number = 2.164403304897294383961032f;
+            double someNumber = 2.164403304897294383961032d;
+            decimal partialNumber = 2.164403304897294383961032m;
+            //decimal ends with m for some reason
+            //Console.WriteLine(number);
+            //Console.WriteLine(someNumber);
+            //Console.WriteLine(partialNumber);
+
+            //boolean
+            bool isPresent = true;
+            bool seatTaken = false;
+
+            //Character
+            char lastLetter = 'j';
+
+            int jessicaAge = 23;
+            int samAge = 47;
+            Console.WriteLine(jessicaAge > samAge);
+
+            int mikeBill = 13;
+            int jimBill = 13;
+            int frankBill = 13;
+            int benBill = 13;
+            Console.WriteLine(mikeBill + jimBill + frankBill + benBill);
+
+
+
         }
     }
 }
