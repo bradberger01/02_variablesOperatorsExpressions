@@ -80,9 +80,28 @@ namespace _081517_VariablesOperatorsExpressions
             int busStudents = (totalStudents - carStudents);
             Console.WriteLine(busStudents / 6);
 
+            float startMoney = 24;
+            float endMoney = 10f;
+            float pencilQuantity = 7f;
+            float spentMoney = startMoney - endMoney;
+            Console.WriteLine(spentMoney / pencilQuantity);
 
+            float grandTotal = 72;
+            float sumOne = grandTotal / 3;
+            float sumTwo = sumOne + 1;
+            float sumThree = sumOne - 1;
+            Console.WriteLine(sumThree);
 
+            int sumOfEvenNumbers = 48;
+            int evenOne = sumOfEvenNumbers / 3;
+            int evenTwo = evenOne - 2;
+            int evenThree = evenOne + 2;
+            Console.WriteLine(evenTwo);
 
+            int newBoxes = 7;
+            int boxesLeft = 22;
+            int beforeFireBoxes = boxesLeft * 2;
+            Console.WriteLine(beforeFireBoxes - newBoxes);
 
         }
     }
